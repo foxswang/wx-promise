@@ -1,0 +1,27 @@
+{
+  "name": "wx-promise",
+  "version": "1.0.0",
+  "description": "基于 [es6-promise](https://github.com/stefanpenner/es6-promise) 对小程序现有 **wx-api** 进行promisify 封装",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wx-dev/wx-promise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wx-dev/wx-promise/issues"
+  },
+  "homepage": "https://github.com/wx-dev/wx-promise#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "es6-promise": "^4.0.5"
+  }
+}
